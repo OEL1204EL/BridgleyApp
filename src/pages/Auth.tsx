@@ -108,10 +108,11 @@ const Auth = () => {
                       <SelectTrigger id="userType">
                         <SelectValue />
                       </SelectTrigger>
-                      <SelectContent>
-                        <SelectItem value="client">Cliente</SelectItem>
-                        <SelectItem value="technician">Técnico</SelectItem>
-                      </SelectContent>
+                  <SelectContent>
+                    <SelectItem value="client">Cliente</SelectItem>
+                    <SelectItem value="technician">Técnico</SelectItem>
+                    <SelectItem value="admin">Administrador</SelectItem>
+                  </SelectContent>
                     </Select>
                   </div>
                   <div className="space-y-2">
